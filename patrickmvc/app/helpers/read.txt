@@ -1,0 +1,7 @@
+helpers created in here are like redirection to page and others. 
+eg 
+<?php
+  // Simple page redirect
+  function redirect($page){
+    header('location: ' . URLROOT . '/' . $page);
+  }
